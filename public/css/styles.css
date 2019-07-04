@@ -22,6 +22,7 @@ body {
 
 h1 {
     margin-bottom: 16px;
+    box-shadow: inset 0 0 2px 2px red;
 }
 
 label {
@@ -42,6 +43,7 @@ button {
     padding: 12px;
     background: #7C5CBF;
     border: none;
+    border-radius: 10px;
     color: white;
     font-size: 16px;
     transition: background .3s ease;
@@ -64,11 +66,12 @@ button:disabled {
     height: 100vh;   
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
 }
 
 .centered-form__box {
     box-shadow: 0px 0px 17px 1px #1D1F26;
+    border-radius: 15px;
     background: #F7F7FA;
     padding: 24px;
     width: 250px;
@@ -81,6 +84,7 @@ button:disabled {
 .centered-form input {
     margin-bottom: 16px;
     width: 100%;
+    border-radius: 5px;
 }
 
 /* Chat Page Layout */
@@ -115,7 +119,7 @@ button:disabled {
 /* Message Styles */
 
 .message {
-    margin-bottom: 16px;   
+    margin-bottom: 16px;  
 }
 
 .message__name {
